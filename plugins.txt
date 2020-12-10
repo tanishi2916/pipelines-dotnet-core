@@ -1,0 +1,365 @@
+	
+.NET SDK Support
+This plugin provides handling for .NET SDKs (Core and 5.0+) as global tools in Jenkins. Includes a build wrapper and several convenience builders.
+1.0.0		
+	
+Ant Plugin
+Adds Apache Ant support to Jenkins
+1.11		
+	
+Apache HttpComponents Client 4.x API Plugin
+Bundles Apache HttpComponents Client 4.x and allows it to be used by Jenkins plugins.
+This plugin is up for adoption! We are looking for new maintainers. Visit our Adopt a Plugin initiative for more information.
+4.5.10-2.0		
+	
+Authentication Tokens API Plugin
+This plugin provides an API for converting credentials into authentication tokens in Jenkins.
+1.4		
+	
+Azure Commons Plugin
+Common APIs for Azure related Jenkins plugins
+1.0.5		
+	
+Azure Credentials
+Manage Azure credentials using Jenkins Credentials API
+4.0.5		
+	
+Bootstrap 4 API Plugin
+Provides Bootstrap 4 for Jenkins plugins.
+4.5.3-1		
+	
+bouncycastle API Plugin
+This plugin provides an stable API to Bouncy Castle related tasks.
+2.18		
+	
+Branch API Plugin
+This plugin provides an API for multiple branch based projects.
+2.6.3		
+	
+Build Timeout
+This plugin allows builds to be automatically terminated after the specified amount of time has elapsed.
+This plugin is up for adoption! We are looking for new maintainers. Visit our Adopt a Plugin initiative for more information.
+1.20		
+	
+Checks API plugin
+This plugin defines an API for Jenkins to publish checks to SCM platforms.
+1.1.1		
+	
+CloudBees Credentials Plugin
+CloudBees Credentials Plugin
+This plugin is used to manage credentials within Jenkins. This plugin is used by CloudBees plugins to access CloudBees services.
+3.3		
+	
+Command Agent Launcher Plugin
+Allows agents to be launched using a specified command.
+1.5		
+	
+Credentials Binding Plugin
+Allows credentials to be bound to environment variables for use from miscellaneous build steps.
+1.24		
+	
+Credentials Plugin
+This plugin allows you to store credentials in Jenkins.
+2.3.14		
+	
+Display URL API
+Provides the DisplayURLProvider extension point to provide alternate URLs for use in notifications
+2.3.4		
+	
+Docker API Plugin
+This plugin provides docker-java API for other plugins.
+This plugin is up for adoption! We are looking for new maintainers. Visit our Adopt a Plugin initiative for more information.
+3.1.5.2		
+	
+Docker Commons Plugin
+Provides the common shared functionality for various Docker-related plugins.
+1.17		
+	
+Durable Task Plugin
+Library offering an extension point for processes which can run outside of Jenkins yet be monitored.
+1.35		
+	
+ECharts API Plugin
+Provides ECharts for Jenkins plugins.
+4.9.0-2		
+	
+Email Extension Plugin
+This plugin is a replacement for Jenkins's email publisher. It allows to configure every aspect of email notifications: when an email is sent, who should receive it and what the email says
+2.80		
+	
+Folders Plugin
+This plugin allows users to create "folders" to organize jobs. Users can define custom taxonomies (like by project type, organization type etc). Folders are nestable and you can define views within folders. Maintained by CloudBees, Inc.
+6.15		
+	
+Font Awesome API Plugin
+Provides the free fonts of Font Awesome for Jenkins plugins.
+5.15.1-1		
+	
+Git client plugin
+Utility plugin for Git support in Jenkins
+3.5.1		
+	
+Git plugin
+This plugin integrates Git with Jenkins.
+4.5.0		
+	
+GIT server Plugin
+Allows Jenkins to act as a Git server.
+1.9		
+	
+GitHub API Plugin
+This plugin provides GitHub API for other plugins.
+1.117		
+	
+GitHub Branch Source Plugin
+Multibranch projects and organization folders from GitHub. Maintained by CloudBees, Inc.
+2.9.2		
+	
+GitHub plugin
+This plugin integrates GitHub to Jenkins.
+1.32.0		
+	
+Gradle Plugin
+This plugin allows Jenkins to invoke Gradle build scripts directly.
+1.36		
+	
+Jackson 2 API Plugin
+This plugin exposes the Jackson 2 JSON APIs to other Jenkins plugins.
+2.12.0		
+	
+JavaScript GUI Lib: ACE Editor bundle plugin
+JavaScript GUI Lib: ACE Editor bundle plugin.
+1.1		
+	
+JavaScript GUI Lib: Handlebars bundle plugin
+JavaScript GUI Lib: Handlebars bundle plugin.
+1.1.1		
+	
+JavaScript GUI Lib: Moment.js bundle plugin
+JavaScript GUI Lib: Moment.js bundle plugin.
+1.1.1		
+	
+JAXB plugin
+JAXB packaging for more transparent Java 9+ compatibility
+2.3.0.1		
+	
+JQuery3 API Plugin
+Provides jQuery 3.x for Jenkins plugins.
+3.5.1-2		
+	
+JSch dependency plugin
+Jenkins plugin that brings the JSch library as a plugin dependency, and provides an SSHAuthenticatorFactory for using JSch with the ssh-credentials plugin.
+0.1.55.2		
+	
+JUnit Plugin
+Allows JUnit-format test results to be published.
+1.46		
+	
+LDAP Plugin
+Adds LDAP authentication to Jenkins
+2.2		
+	
+Lockable Resources plugin
+This plugin allows to define external resources (such as printers, phones, computers) that can be locked by builds. If a build requires an external resource which is already locked, it will wait for the resource to be free.
+2.10		
+	
+Mailer Plugin
+This plugin allows you to configure email notifications for build results
+1.32.1		
+	
+Matrix Authorization Strategy Plugin
+Offers matrix-based security authorization strategies (global and per-project).
+2.6.4		
+	
+Matrix Project Plugin
+Multi-configuration (matrix) project type.
+1.18		
+	
+MSBuild Plugin
+This plugin makes it possible to build a Visual Studio project (.proj) and solution files (.sln).
+This plugin is up for adoption! We are looking for new maintainers. Visit our Adopt a Plugin initiative for more information.
+1.29		
+	
+MSTest plugin
+This plugin converts MSTest TRX test reports into JUnit XML reports so it can be integrated with Hudson's JUnit features.
+1.0.0		
+	
+MSTestRunner plugin
+This plugin run MSTest command line tool to execute unit tests for .NET projects.
+1.3.0		
+	
+OkHttp Plugin
+This plugin provides OkHttp for other plugins.
+3.14.9		
+	
+Oracle Java SE Development Kit Installer Plugin
+Allows the Oracle Java SE Development Kit (JDK) to be installed via download from Oracle's website.
+1.4		
+	
+OWASP Markup Formatter Plugin
+Uses the OWASP Java HTML Sanitizer to allow safe-seeming HTML markup to be entered in project descriptions and the like.
+2.1		
+	
+PAM Authentication plugin
+Adds Unix Pluggable Authentication Module (PAM) support to Jenkins
+1.6		
+	
+Pipeline
+A suite of plugins that lets you orchestrate automation, simple or complex. See Pipeline as Code with Jenkins for more details.
+2.6		
+	
+Pipeline Graph Analysis Plugin
+Provides a REST API to access pipeline and pipeline run data.
+1.10		
+	
+Pipeline: API
+Plugin that defines Pipeline API.
+2.40		
+	
+Pipeline: Basic Steps
+Commonly used steps for Pipelines.
+2.23		
+	
+Pipeline: Build Step
+Adds the Pipeline step build to trigger builds of other jobs.
+2.13		
+	
+Pipeline: Declarative
+An opinionated, declarative Pipeline.
+1.7.2		
+	
+Pipeline: Declarative Extension Points API
+APIs for extension points used in Declarative Pipelines.
+1.7.2		
+	
+Pipeline: GitHub Groovy Libraries
+Allows Pipeline Grrovy libraries to be loaded on the fly from GitHub.
+1.0		
+	
+Pipeline: Groovy
+Pipeline execution engine based on continuation passing style transformation of Groovy scripts.
+2.87		
+	
+Pipeline: Input Step
+Adds the Pipeline step input to wait for human input or approval.
+2.12		
+	
+Pipeline: Job
+Defines a new job type for pipelines and provides their generic user interface.
+2.40		
+	
+Pipeline: Milestone Step
+Plugin that provides the milestone step
+1.3.1		
+	
+Pipeline: Model API
+Model API for Declarative Pipeline.
+1.7.2		
+	
+Pipeline: Multibranch
+Enhances Pipeline plugin to handle branches better by automatically grouping builds from different branches.
+2.22		
+	
+Pipeline: Nodes and Processes
+Pipeline steps locking agents and workspaces, and running external processes that may survive a Jenkins restart or slave reconnection.
+2.37		
+	
+Pipeline: REST API Plugin
+Provides a REST API to access pipeline and pipeline run data.
+2.19		
+	
+Pipeline: SCM Step
+Adds a Pipeline step to check out or update working sources from various SCMs (version control).
+2.11		
+	
+Pipeline: Shared Groovy Libraries
+Shared libraries for Pipeline scripts.
+2.17		
+	
+Pipeline: Stage Step
+Adds the Pipeline step stage to delineate portions of a build.
+2.5		
+	
+Pipeline: Stage Tags Metadata
+Library plugin for Pipeline stage tag metadata.
+1.7.2		
+	
+Pipeline: Stage View Plugin
+Pipeline Stage View Plugin.
+2.19		
+	
+Pipeline: Step API
+API for asynchronous build step primitive.
+2.23		
+	
+Pipeline: Supporting APIs
+Common utility implementations to build Pipeline Plugin
+3.7		
+	
+Plain Credentials Plugin
+Allows use of plain strings and files as credentials.
+1.7		
+	
+Plugin Utilities API Plugin
+Provides several utility classes that can be used to accelerate plugin development.
+1.5.0		
+	
+Popper.js API Plugin
+Provides Popper.js for Jenkins plugins.
+1.16.0-7		
+	
+PowerShell plugin
+This plugin allows Jenkins to invoke PowerShell as build scripts. It uses PowerShell.exe on Windows and pwsh on Linux.
+1.4		
+	
+Resource Disposer Plugin
+Dispose resources asynchronously. Utility plugin for resources that require more retries or take a long time to delete.
+0.14		
+	
+SCM API Plugin
+This plugin provides a new enhanced API for interacting with SCM systems.
+2.6.4		
+	
+Script Security Plugin
+Allows Jenkins administrators to control what in-process scripts can be run by less-privileged users.
+1.75		
+	
+Snakeyaml API Plugin
+This plugin provides Snakeyaml for other plugins.
+1.27.0		
+	
+SSH Build Agents plugin
+Allows to launch agents over SSH, using a Java implementation of the SSH protocol.
+1.31.4		
+	
+SSH Credentials Plugin
+Allows storage of SSH credentials in Jenkins
+1.18.1		
+	
+Structs Plugin
+Library plugin for DSL plugins that need names for Jenkins objects.
+1.20		
+	
+Timestamper
+Adds timestamps to the Console Output
+1.11.8		
+	
+Token Macro Plugin
+This plug-in adds reusable macro expansion capability for other plug-ins to use.
+2.12		
+	
+Trilead API Plugin
+Trilead API Plugin provides the Trilead library to any dependent plugins in an easily update-able manner.
+1.0.13		
+	
+VSTest Runner plugin
+This plugin runs 'VSTest.Console.exe' command line tool to execute unit tests for .NET projects.
+1.0.8		
+	
+WMI Windows Agents Plugin
+Allows you to setup agents on Windows machines over Windows Management Instrumentation (WMI)
+This plugin is up for adoption! We are looking for new maintainers. Visit our Adopt a Plugin initiative for more information.
+1.7		
+	
+Workspace Cleanup Plugin
+This plugin deletes the project workspace when invoked.
