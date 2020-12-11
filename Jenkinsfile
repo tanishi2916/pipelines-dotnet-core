@@ -9,7 +9,7 @@ stage ('Checkout') {
                  git url: 'https://github.com/tanishi2916/pipelines-dotnet-core',branch: 'master'
             }
 }
-stage ('Restore ') {     
+stage ('Restore PACKAGES') {     
          steps {
              bat "dotnet restore"
           }
@@ -22,14 +22,16 @@ stage('Build') {
    }
    stage('Publish') {
      steps {
-           bat 'dotnet publish --configuration Release'
+           bat 'dotnet publish pipelines-dotnet-core.csproj -c Release'
       }
    }
-            stage('Deploy'){
-                        azureWebAppPublish azureCredentialsId: params.azure_cred_id,
+
+    stage('deploy') {
+        steps {
+        azureWebAppPublish azureCredentialsId: params.azure_cred_id,
             resourceGroup: "myResourceGroup", appName: "jenkinssample1998", sourceDirectory: "bin/Release/netcoreapp2.2/publish/"
         }
-}
+    }
 
  }
 }
